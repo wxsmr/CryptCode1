@@ -1,9 +1,9 @@
 package aes
 
 import (
-	"Crypto/aes"
 	"CryptCode/utils"
-	"Crypto/cipher"
+	"crypto/aes"
+	"crypto/cipher"
 )
 
 /**

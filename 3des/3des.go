@@ -1,10 +1,9 @@
 package _des
 
 import (
-	"Crypto/des"
-
 	"CryptCode/utils"
-	"Crypto/cipher"
+	"crypto/cipher"
+	"crypto/des"
 )
 
 /**

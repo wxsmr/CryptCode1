@@ -10,7 +10,8 @@ import (
 func PKCS5EndPadding(text []byte, size int) []byte {
 	paddingSize := size - len(text)%size
 	paddingText := bytes.Repeat([]byte{byte(paddingSize)}, paddingSize)
-	return append(text, paddingText...)
+	originData := append(text,paddingText...)
+	return originData
 }
 
 /**

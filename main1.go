@@ -16,7 +16,7 @@ func main() {
 	 */
 
 	 /**
-	  * 对称加密：des,3des,aes ==> 共性：块加密
+	  * 对称加密：des_my,3des,aes ==> 共性：块加密
 	  */
 
 	person1 := NewChinese()
